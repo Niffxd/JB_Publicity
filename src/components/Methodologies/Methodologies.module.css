@@ -1,0 +1,21 @@
+.methodologies__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.methodologies__content > img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+}

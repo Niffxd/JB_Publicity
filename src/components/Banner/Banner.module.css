@@ -1,0 +1,23 @@
+.banner__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 3rem;
+}
+
+.service__container {
+  text-align: center;
+}
+
+.service__container > span {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: var(--color-gray);
+}
+
+.service__container > h2 {
+  margin: .2rem 0 1rem;
+  color: var(--color-dark);
+}

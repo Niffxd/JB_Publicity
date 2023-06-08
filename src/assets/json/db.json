@@ -1,0 +1,91 @@
+{
+  "categories": [
+    {
+      "category": "OBTENER PRESUPUESTO",
+      "path": false
+    },
+    {
+      "category": "QUIENES SOMOS",
+      "path": "/quienes-somos"
+    },
+    {
+      "category": "GALERIA",
+      "path": "/galeria"
+    },
+    {
+      "category": "CONTACTO",
+      "path": "/contacto"
+    }    
+  ],
+  "contact": {
+    "call": "+54 381 435-1401",
+    "pin_drop": "Avenida Mate de Luna 3669 - T4000CUB",
+    "map": "San Miguel de Tucumán",
+    "state": "Tucumán",
+    "country": "Argentina"
+  },
+  "slider": [
+    {
+      "src": "/slider/slider_1.jpg",
+      "title": "Trabajo Jumbo Cencosud"
+    },
+    {
+      "src": "/slider/slider_2.jpg",
+      "title": "Trabajo Jumbo Cencosud Grúa"
+    },
+    {
+      "src": "/slider/slider_3.jpg",
+      "title": "Nueva Imagen Refinor Rioja"
+    },
+    {
+      "src": "/slider/slider_4.jpg",
+      "title": "Nueva Imagen Shell"
+    },
+    {
+      "src": "/slider/slider_5.jpg",
+      "title": "Nueva Imagen Refinor"
+    },
+    {
+      "src": "/slider/slider_6.jpeg",
+      "title": "Trabajo Jumbo Cencosud Grúa"
+    },
+    {
+      "src": "/slider/slider_7.jpeg",
+      "title": "Nueva Imagen Refinor Rioja"
+    },
+    {
+      "src": "/slider/slider_8.jpeg",
+      "title": "Nueva Imagen Shell"
+    }
+  ],
+  "brands": [
+    {
+      "src": "/brands/brands1.jpg"
+    },
+    {
+      "src": "/brands/brands2.jpg"
+    }
+  ],
+  "schedule": {
+    "morning": "8:30 - 13:00",
+    "afternoon": "14:00 - 17:30",
+    "saturday": "8:00 - 12:30"
+  },
+  "services": [
+    {
+      "icon": "engineering",
+      "title": "INGENIERIA COMERCIAL",
+      "description": "Cartelería, construcción y aplicación de cenefas, pérgola, barandas, etc. Trabajos de presición en acero."
+    },
+    {
+      "icon": "groups",
+      "title": "GRANDES CLIENTES",
+      "description": "Construcción de estructuras, instalación eléctrica, pintura y ensamblado se realizan integramente en nuestros talleres. Contamos con el equipamiento necesario para trabajos de gran envergadura."
+    },
+    {
+      "icon": "handyman",
+      "title": "MUEBLES Y ACCESORIOS",
+      "description": "Amoblamiento industrial según requerimientos específicos del cliente para cada estación de servicio."
+    }
+  ]
+}

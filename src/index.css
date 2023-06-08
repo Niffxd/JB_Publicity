@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* colors */
+
+:root {
+  --color-gray: #686d72;
+  --color-blue: #0068b3;
+  --color-white: #fafafa;
+  --color-dark: #212121;
+  --color-smoke:  #848884;
+  --color-orange: #ff7f0e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Robot', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-blue) var(--color-blue);
+}
+  
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-blue);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue);
+  border-radius: 16px;
+  border: 1px solid var(--color-white);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
