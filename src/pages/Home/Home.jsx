@@ -23,7 +23,7 @@ export default function HomePage ({ data }) {
       </Link>
       <Methodologies />
       <Tools />
-      <Brands images={brands}/>
+      <Brands brands={brands}/>
     </div>
   );
 }

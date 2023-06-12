@@ -5,17 +5,13 @@
       "path": false
     },
     {
-      "category": "QUIENES SOMOS",
+      "category": "QUIENES SOMOS Y CONTACTO",
       "path": "/quienes-somos"
     },
     {
       "category": "GALERIA",
       "path": "/galeria"
-    },
-    {
-      "category": "CONTACTO",
-      "path": "/contacto"
-    }    
+    }   
   ],
   "contact": {
     "call": "+54 381 435-1401",
@@ -23,6 +19,91 @@
     "map": "San Miguel de Tucumán",
     "state": "Tucumán",
     "country": "Argentina"
+  },
+  "company": [
+    {
+      "name": "JB COMPAÑÍA PUBLICITARIA",
+      "tel": "+54 9 381-4351401",
+      "textNumber": "+5493814351401",
+      "mail": "jb@jbciapublicitaria.com.ar"
+    },
+    {
+      "name": "Elfio Avignone",
+      "position": "Socio Gerente",
+      "tel": "+54 9 381-6229622",
+      "textNumber": "+5493816229622"
+    },
+    {
+      "name": "Rodrigo Bringas",
+      "position": "Socio Gerente",
+      "tel": "+54 9 381-5909001",
+      "textNumber": "+5493815909001"
+    }
+  ],
+  "weAre": {
+    "description": [
+      "Desde hace 35 años en Tucumán, JB se inicia en el universo grádico incursionando con publicidad en vía pública, desarrollando distintos circuitos en la capital y alrededores. Con el pasar del tiempo, decide ampliar sus horizontes, para ir más allá de la venta de espacios.",
+      "Desde 2011 comienza una nueva etapa con la incorporación de la tecnología digital, sumando su primera impresora de gran formato para vinilos y lonas.",
+      "Hoy, 11 años después, JB COMPAÑÍA PUBLICITARIA es sinónimo de calidad certificada en el Norte del País. Contando con una planta de 1.000 m2 en donde fabrica e imprime todo tipo de carteles y sustratos.",
+      "Con un convenio estratégico con 3M ARGENTINA se posiciona como el único proveedor certificado en el NOA para fabricar, imprimir e instalar carteles Premium.",
+      "Estamos ubicados en calle Av. Mate de Luna 3.669 en la ciudad de San Miguel de Tucumán, y allí funcionan sus 3 departamentos."
+    ],
+    "departments": [
+      {
+        "title": "DISEÑO GRÁFICO",
+        "description": ["Estamos ubicados en calle Av. Mate de Luna 3.669 en la  ciudad de San Miguel de Tucumán, y allí funcionan sus 3 departamentos"]
+      },
+      {
+        "title": "IMPRESION",
+        "description": [
+          "Estamos equipados con las ultimas tecnologías del mercado. En nuestro sector de impresión funcionan 3 impresoras de gran formato: HANDTOP 1600 UV HP LATEX 360, BRITOMATICS 320.",
+          "Además, contamos con mesa de corte digital SAMURAI V CUT, Mimaki de corte, Laminadora Britomatics y una máquina de corte de polifan."
+        ]
+      },
+      {
+        "title": "TALLER",
+        "description": [
+          "Contamos con el personal calificado y capacitado para la producción y montaje de cualquier tipo de obra de Ingeniería Corporativa."
+        ]
+      }
+    ]
+  },
+  "coverage": {
+    "description": "Estamos ubicados físicamente en la Ciudad de San Miguel de Tucumán, la capital de la Provincia de Tucumán.",
+    "distances": {
+      "title": "Distancia a las demás provincias del NOA",
+      "states": [
+        {
+          "state": "Santiago del Estero",
+          "long": 170
+        },
+        {
+          "state": "Catamarca",
+          "long": 298
+        },
+        {
+          "state": "Salta",
+          "long": 320
+        },
+        {
+          "state": "Jujuy",
+          "long": 360
+        },
+        {
+          "state": "La Rioja",
+          "long": 391
+        },
+        {
+          "state": "Chaco",
+          "long": 771
+        },
+        {
+          "state": "Córdoba",
+          "long": 570
+        }
+      ],
+      "description": "Nuestra ubicación estratégica nos permite atender todas las demandas de nuestros clientes en estas plazas."
+    }
   },
   "slider": [
     {
@@ -60,10 +141,92 @@
   ],
   "brands": [
     {
-      "src": "/brands/brands1.jpg"
+      "src": "/brands/aerolineas-argentinas.jpg",
+      "title": "Aerolineas Argentinas"
     },
     {
-      "src": "/brands/brands2.jpg"
+      "src": "/brands/arcor.jpg",
+      "title": "Arcor"
+    },
+    {
+      "src": "/brands/bagley.jpg",
+      "title": "Bagley"
+    },
+    {
+      "src": "/brands/bbva.jpg",
+      "title": "BBVA"
+    },
+    {
+      "src": "/brands/budeguer.jpg",
+      "title": "Grupo Budeguer"
+    },
+    {
+      "src": "/brands/campagnola.jpg",
+      "title": "La Campagnola"
+    },
+    {
+      "src": "/brands/cat.jpg",
+      "title": "C.A.T."
+    },
+    {
+      "src": "/brands/ccc.jpg",
+      "title": "CCC"
+    },
+    {
+      "src": "/brands/cencosud.jpg",
+      "title": "Cencosud"
+    },
+    {
+      "src": "/brands/del-pueblo.jpg",
+      "title": "Del Pueblo Farmacias"
+    },
+    {
+      "src": "/brands/easy.jpg",
+      "title": "Easy Cencosud"
+    },
+    {
+      "src": "/brands/gasnor.jpg",
+      "title": "Gasnor"
+    },
+    {
+      "src": "/brands/jorrat.jpg",
+      "title": "Jorrat Juguetería"
+    },
+    {
+      "src": "/brands/jumbo.jpg",
+      "title": "Jumbo Cencosud"
+    },
+    {
+      "src": "/brands/line-up.jpg",
+      "title": "LineUp"
+    },
+    {
+      "src": "/brands/lucci.jpg",
+      "title": "Grupo Lucci"
+    },
+    {
+      "src": "/brands/municipalidad.jpg",
+      "title": "Municipaldiad de Aguilares"
+    },
+    {
+      "src": "/brands/refinor.jpg",
+      "title": "Refinor"
+    },
+    {
+      "src": "/brands/sherwin-williams.jpg",
+      "title": "Sherwin Williams"
+    },
+    {
+      "src": "/brands/sporting.jpg",
+      "title": "Sporting"
+    },
+    {
+      "src": "/brands/turismo.jpg",
+      "title": "Tucumán Turismo"
+    },
+    {
+      "src": "/brands/vea.png",
+      "title": "Vea Cencosud"
     }
   ],
   "schedule": {
