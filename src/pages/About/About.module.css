@@ -1,0 +1,103 @@
+.about_page__container {
+  min-height: calc(100vh - 80px - 366px);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.title_container,
+.coverage__container,
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_container > span,
+.coverage__container > span,
+.contact__container > span {
+  font-size: 3rem;
+  transform: rotate(0deg);
+  animation: .2s ease-in-out restart;
+}
+
+.rotate > span {
+  transform: rotate(90deg);
+  animation: .2s ease-in-out rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes restart {
+  from {
+    transform: rotate(90deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.about_description__container,
+.coverage_description__container,
+.contact_description__container {
+  display: none;
+}
+
+.show_container {
+  height: fit-content;
+  display: block;
+}
+
+.about_description > p,
+.department__content > p {
+  margin: 1rem 0;
+}
+
+.about_description > p:first-child {
+  margin-top: 0;
+}
+
+.coverage_description__container > img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.coverage_description > h3 {
+  margin: 1.5rem 0;
+}
+
+.states_container {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+}
+
+.state_content {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_content {
+  margin: 1.5rem 0;
+}
+
+.contact_content > p {
+  margin-left: 1rem;
+}
+
+.tel {
+  text-decoration: underline;
+}
