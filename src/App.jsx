@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; //eslint-disable-line
 import Navbar from './components/Navbar/Navbar.jsx'; //eslint-disable-line
 import Footer from './components/Footer/Footer.jsx'; //eslint-disable-line
-// import NotFoundPage from './pages/NotFound/NotFound.jsx'; //eslint-disable-line
+import NotFoundPage from './pages/NotFound/NotFound.jsx'; //eslint-disable-line
 import HomePage from './pages/Home/Home.jsx'; //eslint-disable-line
 import AboutPage from './pages/About/About.jsx'; //eslint-disable-line
 // import logo from './assets/images/logo/logo.png';
@@ -16,7 +16,7 @@ function App () {
       <Routes>
         <Route exac path='/' element={<HomePage logo={logo} data={db}/>}/>
         <Route exac path='/quienes-somos' element={<AboutPage data={db}/>}/>
-        {/* <Route path='*' element={<NotFound />}/> */}
+        <Route path='*' element={<NotFoundPage logo={logo} categories={db.categories}/>}/>
       </Routes>
       <Footer logo={logo} data={db}/>
     </BrowserRouter>

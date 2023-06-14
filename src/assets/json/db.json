@@ -1,17 +1,17 @@
 {
   "categories": [
     {
+      "category": "INICIO",
+      "path": "/"
+    },
+    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
     {
       "category": "QUIENES SOMOS Y CONTACTO",
       "path": "/quienes-somos"
-    },
-    {
-      "category": "GALERIA",
-      "path": "/galeria"
-    }   
+    } 
   ],
   "contact": {
     "call": "+54 381 435-1401",
@@ -249,6 +249,68 @@
       "icon": "handyman",
       "title": "MUEBLES Y ACCESORIOS",
       "description": "Amoblamiento industrial según requerimientos específicos del cliente para cada estación de servicio."
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Cambio de imagen para estaciones de servicio Refinor",
+      "descriptions": [
+        "Desmontaje y armado de nuevas estructuras. Recubrimiento de Aluminio Compuesto, Iluminación y gráfica en general.",
+        "Trabajos realizados con productos de primera línea Lona Panagraphic 3M, Vinilo fundido 3M, artefactos lumínicos antiexplosivos para GNC. Paneles de Aluminio compuesto plegado para construcción de cenefas y pórtico.",
+        "Construcción de estructuras, instalación eléctrica, pintura y ensamblado se realizan integramente en nuestros talleres. Contamos con el equipamiento necesario para trabajos de gran envergadura.",
+        "Tótem rutero de 12 metros de altura estructura de ángulos, forrado de ACM y acrílico lechoso de 12mm routeado. Transiluminado. Base reslizada con UPN.",
+        "Amoblamiento industrial según requerimientos específicos del cliente para cada estación de servicio",
+        "Fabricamos, transportamos y colocamos todas las piezas solicitadas por el cliente. Piezas de herrería, pintura, impresión, vinilos, iluminación Led, señalética."
+      ],
+      "images": [
+        "jobs/refinor/1.jpg",
+        "jobs/refinor/2.jpg",
+        "jobs/refinor/3.jpg",
+        "jobs/refinor/4.jpg",
+        "jobs/refinor/5.jpg",
+        "jobs/refinor/6.jpg",
+        "jobs/refinor/7.jpg",
+        "jobs/refinor/8.jpg",
+        "jobs/refinor/9.jpg",
+        "jobs/refinor/10.jpg"
+      ],
+      "videos": [
+        "jobs/refinor/1.MP4",
+        "jobs/refinor/2.MP4",
+        "jobs/refinor/3.MP4",
+        "jobs/refinor/4.MP4"
+      ]
+    },
+    {
+      "title": "Instalación completa de nueva imagen de nuestro cliente Shell.",
+      "descriptions": [
+        "Se colocaron desde las cenefas plásticas hasta los coronamiento y punteras. También realizamos las conexiones eléctricas.",
+        "Instalación de tótem gigante, fijación a base y porsterior conexión eléctrica.",
+        "Las instalaciones se realizan a medida respetando los manuales de marca y las especificaciones de posicionamiento."
+      ],
+      "images": [
+        "jobs/shell/1.jpg",
+        "jobs/shell/2.jpg",
+        "jobs/shell/3.jpg",
+        "jobs/shell/4.jpg",
+        "jobs/shell/5.jpg",
+        "jobs/shell/6.jpg",
+        "jobs/shell/7.jpg",
+        "jobs/shell/8.jpg"
+      ]
+    },
+    {
+      "title": "Cambio de imágen de BBVA",
+      "descriptions": [
+        "Ccon estructuras realizadas en caño estructural de aluminio, lonas panagraphics ploteadas con vinilo fundido 3M y colocación de Letras realizadas en PVC de 10 mm."
+      ],
+      "images": [
+        "jobs/bbva/1.jpg",
+        "jobs/bbva/2.jpg",
+        "jobs/bbva/3.jpg",
+        "jobs/bbva/4.jpg",
+        "jobs/bbva/5.jpg"
+      ]
     }
   ]
 }
