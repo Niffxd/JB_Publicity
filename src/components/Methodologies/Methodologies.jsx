@@ -1,5 +1,5 @@
-import style from './Methodologies.module.css';
 import photo from '../../assets/images/services/3m.png';
+import style from './Methodologies.module.css';
 
 export default function Methodologies () {
   return (
