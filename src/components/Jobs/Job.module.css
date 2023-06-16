@@ -1,0 +1,19 @@
+.more_info,
+.more_photos {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.more_info {
+  margin-top: 1rem;
+}
+
+.more_photos {
+  text-align: end;
+}
+
+.videos__container {
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+}
