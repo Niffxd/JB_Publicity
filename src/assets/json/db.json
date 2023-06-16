@@ -5,6 +5,10 @@
       "path": "/"
     },
     {
+      "category": "GALERÍA",
+      "path": "/galeria"
+    },
+    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
@@ -108,41 +112,45 @@
   "slider": [
     {
       "src": "/slider/slider_1.jpg",
-      "title": "Trabajo Jumbo Cencosud"
+      "title": "Trabajo Mostaza"
     },
     {
       "src": "/slider/slider_2.jpg",
-      "title": "Trabajo Jumbo Cencosud Grúa"
+      "title": "Trabajo Refinor"
     },
     {
       "src": "/slider/slider_3.jpg",
-      "title": "Nueva Imagen Refinor Rioja"
+      "title": "Trabajo Shell"
     },
     {
       "src": "/slider/slider_4.jpg",
-      "title": "Nueva Imagen Shell"
+      "title": "Trabajo Mostaza Grúa"
     },
     {
       "src": "/slider/slider_5.jpg",
-      "title": "Nueva Imagen Refinor"
+      "title": "Nueva Imagen Refinor Totem"
     },
     {
-      "src": "/slider/slider_6.jpeg",
+      "src": "/slider/slider_6.jpg",
       "title": "Trabajo Jumbo Cencosud Grúa"
-    },
-    {
-      "src": "/slider/slider_7.jpeg",
-      "title": "Nueva Imagen Refinor Rioja"
-    },
-    {
-      "src": "/slider/slider_8.jpeg",
-      "title": "Nueva Imagen Shell"
     }
   ],
   "brands": [
     {
       "src": "/brands/aerolineas-argentinas.jpg",
       "title": "Aerolineas Argentinas"
+    },
+    {
+      "src": "/brands/afip.jpg",
+      "title": "AFIP"
+    },
+    {
+      "src": "/brands/aguilares.jpg",
+      "title": "Municipaldiad de Aguilares"
+    },
+    {
+      "src": "/brands/ampere.jpg",
+      "title": "AMPERE"
     },
     {
       "src": "/brands/arcor.jpg",
@@ -157,12 +165,20 @@
       "title": "BBVA"
     },
     {
+      "src": "/brands/benelli.jpg",
+      "title": "BENELLI"
+    },
+    {
       "src": "/brands/budeguer.jpg",
       "title": "Grupo Budeguer"
     },
     {
       "src": "/brands/campagnola.jpg",
       "title": "La Campagnola"
+    },
+    {
+      "src": "/brands/casapan.jpg",
+      "title": "CASAPAN"
     },
     {
       "src": "/brands/cat.jpg",
@@ -177,6 +193,10 @@
       "title": "Cencosud"
     },
     {
+      "src": "/brands/concepcion.jpg",
+      "title": "Municipaldiad de Concepción"
+    },
+    {
       "src": "/brands/del-pueblo.jpg",
       "title": "Del Pueblo Farmacias"
     },
@@ -185,8 +205,24 @@
       "title": "Easy Cencosud"
     },
     {
+      "src": "/brands/ecos.jpg",
+      "title": "ECOS S.A."
+    },
+    {
+      "src": "/brands/elamigo.jpg",
+      "title": "El Amigo"
+    },
+    {
+      "src": "/brands/ganneia.jpg",
+      "title": "GANNEIA"
+    },
+    {
       "src": "/brands/gasnor.jpg",
       "title": "Gasnor"
+    },
+    {
+      "src": "/brands/gmkt.jpg",
+      "title": "GMKT"
     },
     {
       "src": "/brands/jorrat.jpg",
@@ -197,6 +233,10 @@
       "title": "Jumbo Cencosud"
     },
     {
+      "src": "/brands/legislatura.jpg",
+      "title": "Honorable Legislatura de Tucumán"
+    },
+    {
       "src": "/brands/line-up.jpg",
       "title": "LineUp"
     },
@@ -205,12 +245,40 @@
       "title": "Grupo Lucci"
     },
     {
-      "src": "/brands/municipalidad.jpg",
-      "title": "Municipaldiad de Aguilares"
+      "src": "/brands/patagonia.jpg",
+      "title": "Cervecería Patagonia"
+    },
+    {
+      "src": "/brands/petroarsa.jpg",
+      "title": "Petroarsa"
+    },
+    {
+      "src": "/brands/pevisa.jpg",
+      "title": "Pevisa Neumáticos"
+    },
+    {
+      "src": "/brands/portal-salta.jpg",
+      "title": "Portal Salta"
+    },
+    {
+      "src": "/brands/portal-santiago.jpg",
+      "title": "Portal Santiago"
+    },
+    {
+      "src": "/brands/portal-tucuman.jpg",
+      "title": "Portal Tucumán"
     },
     {
       "src": "/brands/refinor.jpg",
       "title": "Refinor"
+    },
+    {
+      "src": "/brands/rodar.jpg",
+      "title": "RODAR Neumáticos"
+    },
+    {
+      "src": "/brands/shell.jpg",
+      "title": "Shell"
     },
     {
       "src": "/brands/sherwin-williams.jpg",
@@ -221,12 +289,20 @@
       "title": "Sporting"
     },
     {
+      "src": "/brands/termas.jpg",
+      "title": "Municipaldiad de Las Termas"
+    },
+    {
       "src": "/brands/turismo.jpg",
       "title": "Tucumán Turismo"
     },
     {
-      "src": "/brands/vea.png",
+      "src": "/brands/vea.jpg",
       "title": "Vea Cencosud"
+    },
+    {
+      "src": "/brands/yuhmak.jpg",
+      "title": "YUHMAK"
     }
   ],
   "schedule": {
@@ -272,13 +348,36 @@
         "jobs/refinor/7.jpg",
         "jobs/refinor/8.jpg",
         "jobs/refinor/9.jpg",
-        "jobs/refinor/10.jpg"
+        "jobs/refinor/10.jpg",
+        "jobs/refinor/11.jpg",
+        "jobs/refinor/12.jpg",
+        "jobs/refinor/13.jpg",
+        "jobs/refinor/14.jpg",
+        "jobs/refinor/15.jpg",
+        "jobs/refinor/16.jpg",
+        "jobs/refinor/17.jpg",
+        "jobs/refinor/18.jpg",
+        "jobs/refinor/19.jpg",
+        "jobs/refinor/20.jpg",
+        "jobs/refinor/21.jpg",
+        "jobs/refinor/22.jpg",
+        "jobs/refinor/23.jpg",
+        "jobs/refinor/24.jpg",
+        "jobs/refinor/25.jpg",
+        "jobs/refinor/26.jpg",
+        "jobs/refinor/27.jpg",
+        "jobs/refinor/28.jpg",
+        "jobs/refinor/29.jpg",
+        "jobs/refinor/30.jpg",
+        "jobs/refinor/31.jpg",
+        "jobs/refinor/32.jpg"
       ],
       "videos": [
         "jobs/refinor/1.MP4",
         "jobs/refinor/2.MP4",
         "jobs/refinor/3.MP4",
-        "jobs/refinor/4.MP4"
+        "jobs/refinor/4.MP4",
+        "jobs/refinor/5.MP4"
       ]
     },
     {
@@ -296,20 +395,39 @@
         "jobs/shell/5.jpg",
         "jobs/shell/6.jpg",
         "jobs/shell/7.jpg",
-        "jobs/shell/8.jpg"
+        "jobs/shell/8.jpg",
+        "jobs/shell/9.jpg"
       ]
     },
     {
       "title": "Cambio de imágen de BBVA",
       "descriptions": [
-        "Ccon estructuras realizadas en caño estructural de aluminio, lonas panagraphics ploteadas con vinilo fundido 3M y colocación de Letras realizadas en PVC de 10 mm."
+        "Con estructuras realizadas en caño estructural de aluminio, lonas panagraphics ploteadas con vinilo fundido 3M y colocación de Letras realizadas en PVC de 10 mm."
       ],
       "images": [
         "jobs/bbva/1.jpg",
         "jobs/bbva/2.jpg",
         "jobs/bbva/3.jpg",
         "jobs/bbva/4.jpg",
-        "jobs/bbva/5.jpg"
+        "jobs/bbva/5.jpg",
+        "jobs/bbva/6.jpg",
+        "jobs/bbva/7.jpg",
+        "jobs/bbva/8.jpg",
+        "jobs/bbva/9.jpg"
+      ]
+    },
+    {
+      "title": "Sucursal Mostaza",
+      "descriptions": [
+        "Cartelería, construcción y aplicación de cenefas, pérgola, barandas, etc. Trabajos de presición en acero."
+      ],
+      "images": [
+        "jobs/mostaza/1.jpg",
+        "jobs/mostaza/2.jpg",
+        "jobs/mostaza/3.jpg",
+        "jobs/mostaza/4.jpg",
+        "jobs/mostaza/5.jpg",
+        "jobs/mostaza/6.jpg"
       ]
     }
   ]

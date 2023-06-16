@@ -12,6 +12,10 @@
   z-index: 1;
 }
 
+.budget__container input {
+  background-color: var(--color-white);
+}
+
 .budget_form__container,
 .warning_fields {
   width: 95vw;
