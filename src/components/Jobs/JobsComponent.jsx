@@ -4,7 +4,7 @@ import style from './JobsComponent.module.css';
 export default function JobsComponent ({ jobs }) {
   return (
     <section className={style.jobs__container}>
-      <h1>GRANDES CLIENTES</h1>
+      <h1>NUESTRO TRABAJO</h1>
       {
         jobs.map(job => {
           return (
