@@ -5,10 +5,6 @@
       "path": "/"
     },
     {
-      "category": "GALERÍA",
-      "path": "/galeria"
-    },
-    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
@@ -54,10 +50,12 @@
     ],
     "departments": [
       {
+        "path": "",
         "title": "DISEÑO GRÁFICO",
         "description": ["Estamos ubicados en calle Av. Mate de Luna 3.669 en la  ciudad de San Miguel de Tucumán, y allí funcionan sus 3 departamentos"]
       },
       {
+        "path": "",
         "title": "IMPRESION",
         "description": [
           "Estamos equipados con las ultimas tecnologías del mercado. En nuestro sector de impresión funcionan 3 impresoras de gran formato: HANDTOP 1600 UV HP LATEX 360, BRITOMATICS 320.",
@@ -65,6 +63,7 @@
         ]
       },
       {
+        "path": "",
         "title": "TALLER",
         "description": [
           "Contamos con el personal calificado y capacitado para la producción y montaje de cualquier tipo de obra de Ingeniería Corporativa."
@@ -75,6 +74,7 @@
   "coverage": {
     "description": "Estamos ubicados físicamente en la Ciudad de San Miguel de Tucumán, la capital de la Provincia de Tucumán.",
     "distances": {
+      "path": "",
       "title": "Distancia a las demás provincias del NOA",
       "states": [
         {
@@ -112,80 +112,94 @@
   "slider": [
     {
       "src": "/slider/slider_1.jpg",
-      "title": "Trabajo Mostaza"
-    },
-    {
-      "src": "/slider/slider_2.jpg",
+      "path": "",
       "title": "Trabajo Refinor"
     },
     {
-      "src": "/slider/slider_3.jpg",
+      "src": "/slider/slider_2.jpg",
+      "path": "",
       "title": "Trabajo Shell"
     },
     {
-      "src": "/slider/slider_4.jpg",
-      "title": "Trabajo Mostaza Grúa"
+      "src": "/slider/slider_3.jpg",
+      "path": "",
+      "title": "Trabajo Mostaza"
     },
     {
-      "src": "/slider/slider_5.jpg",
+      "src": "/slider/slider_4.jpg",
+      "path": "",
       "title": "Nueva Imagen Refinor Totem"
     },
     {
-      "src": "/slider/slider_6.jpg",
+      "src": "/slider/slider_5.jpg",
+      "path": "",
       "title": "Trabajo Jumbo Cencosud Grúa"
     }
   ],
   "brands": [
     {
       "src": "/brands/aerolineas-argentinas.jpg",
+      "path": "",
       "title": "Aerolineas Argentinas"
     },
     {
       "src": "/brands/afip.jpg",
+      "path": "",
       "title": "AFIP"
     },
     {
       "src": "/brands/aguilares.jpg",
+      "path": "",
       "title": "Municipaldiad de Aguilares"
     },
     {
       "src": "/brands/ampere.jpg",
+      "path": "",
       "title": "AMPERE"
     },
     {
       "src": "/brands/arcor.jpg",
+      "path": "",
       "title": "Arcor"
     },
     {
       "src": "/brands/bagley.jpg",
+      "path": "",
       "title": "Bagley"
     },
     {
       "src": "/brands/bbva.jpg",
+      "path": "",
       "title": "BBVA"
     },
     {
       "src": "/brands/benelli.jpg",
+      "path": "",
       "title": "BENELLI"
     },
     {
       "src": "/brands/budeguer.jpg",
+      "path": "",
       "title": "Grupo Budeguer"
     },
     {
       "src": "/brands/campagnola.jpg",
+      "path": "",
       "title": "La Campagnola"
     },
     {
       "src": "/brands/casapan.jpg",
+      "path": "",
       "title": "CASAPAN"
     },
     {
       "src": "/brands/cat.jpg",
+      "path": "",
       "title": "C.A.T."
     },
     {
       "src": "/brands/ccc.jpg",
+      "path": "",
       "title": "CCC"
     },
     {
@@ -313,22 +327,13 @@
   "services": [
     {
       "icon": "engineering",
-      "title": "INGENIERIA COMERCIAL",
-      "description": "Cartelería, construcción y aplicación de cenefas, pérgola, barandas, etc. Trabajos de presición en acero."
-    },
-    {
-      "icon": "groups",
-      "title": "GRANDES CLIENTES",
-      "description": "Construcción de estructuras, instalación eléctrica, pintura y ensamblado se realizan integramente en nuestros talleres. Contamos con el equipamiento necesario para trabajos de gran envergadura."
-    },
-    {
-      "icon": "handyman",
-      "title": "MUEBLES Y ACCESORIOS",
-      "description": "Amoblamiento industrial según requerimientos específicos del cliente para cada estación de servicio."
+      "title": "INGENIERIA CORPORATIVA",
+      "description": "impulsando la excelencia con vistas 3D, renders y prototipos. Eficiencia, calidad y creatividad para llevar tu negocio al siguiente nivel."
     }
   ],
   "jobs": [
     {
+      "path": "refinor",
       "title": "Cambio de imagen para estaciones de servicio Refinor",
       "descriptions": [
         "Desmontaje y armado de nuevas estructuras. Recubrimiento de Aluminio Compuesto, Iluminación y gráfica en general.",
@@ -381,6 +386,7 @@
       ]
     },
     {
+      "path": "shell",
       "title": "Instalación completa de nueva imagen de nuestro cliente Shell.",
       "descriptions": [
         "Se colocaron desde las cenefas plásticas hasta los coronamiento y punteras. También realizamos las conexiones eléctricas.",
@@ -400,6 +406,7 @@
       ]
     },
     {
+      "path": "bbva",
       "title": "Cambio de imágen de BBVA",
       "descriptions": [
         "Con estructuras realizadas en caño estructural de aluminio, lonas panagraphics ploteadas con vinilo fundido 3M y colocación de Letras realizadas en PVC de 10 mm."
@@ -417,6 +424,7 @@
       ]
     },
     {
+      "path": "mostaza",
       "title": "Sucursal Mostaza",
       "descriptions": [
         "Cartelería, construcción y aplicación de cenefas, pérgola, barandas, etc. Trabajos de presición en acero."
