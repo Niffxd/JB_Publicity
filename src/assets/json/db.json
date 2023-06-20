@@ -1,10 +1,6 @@
 {
   "categories": [
     {
-      "category": "INICIO",
-      "path": "/"
-    },
-    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
@@ -328,7 +324,7 @@
     {
       "icon": "engineering",
       "title": "INGENIERIA CORPORATIVA",
-      "description": "impulsando la excelencia con vistas 3D, renders y prototipos. Eficiencia, calidad y creatividad para llevar tu negocio al siguiente nivel."
+      "description": "Impulsando la excelencia con vistas 3D, renders y prototipos. Eficiencia, calidad y creatividad para llevar tu negocio al siguiente nivel."
     }
   ],
   "jobs": [
