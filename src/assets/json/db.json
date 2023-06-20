@@ -1,10 +1,6 @@
 {
   "categories": [
     {
-      "category": "INICIO",
-      "path": "/"
-    },
-    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
@@ -328,7 +324,7 @@
     {
       "icon": "engineering",
       "title": "INGENIERIA CORPORATIVA",
-      "description": "impulsando la excelencia con vistas 3D, renders y prototipos. Eficiencia, calidad y creatividad para llevar tu negocio al siguiente nivel."
+      "description": "Impulsando la excelencia con vistas 3D, renders y prototipos. Eficiencia, calidad y creatividad para llevar tu negocio al siguiente nivel."
     }
   ],
   "jobs": [
@@ -436,6 +432,32 @@
         "jobs/mostaza/4.jpg",
         "jobs/mostaza/5.jpg",
         "jobs/mostaza/6.jpg"
+      ]
+    },
+    {
+      "path": "others",
+      "title": "¡Muchos más!",
+      "images": [
+        "jobs/zeramiko/1.jpg",
+        "jobs/benelli/1.jpg",
+        "jobs/aguilares/1.jpg",
+        "jobs/easy/1.jpg",
+        "jobs/jumbo/1.jpg",
+        "jobs/jumbo/9.jpg",
+        "jobs/jumbo/10.jpg",
+        "jobs/jumbo/13.jpg",
+        "jobs/elamigo/1.jpg",
+        "jobs/elamigo/2.jpg",
+        "jobs/iphonewave/8.jpg",
+        "jobs/others/1.jpg",
+        "jobs/others/15.jpg",
+        "jobs/others/2.jpg",
+        "jobs/others/3.jpg",
+        "jobs/others/5.jpg",
+        "jobs/others/20.jpg",
+        "jobs/others/25.jpg",
+        "jobs/others/24.jpg",
+        "jobs/cat/2.jpg"
       ]
     }
   ]

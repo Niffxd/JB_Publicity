@@ -11,15 +11,20 @@
 .brands {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-evenly; */
   align-items: center;
   flex-wrap: wrap;
-  gap: 2rem;
-  padding: 0 1.5rem;
+  gap: 3rem;
+  padding: 0 3rem;
 }
 
 .brands > img {
   width: 25%;
   min-width: 80px;
   max-width: 160px;
+}
+
+@media (min-width: 768px) {
+  .brands > img {
+    width: 80px;
+  }
 }
