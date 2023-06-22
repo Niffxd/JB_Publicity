@@ -1,11 +1,17 @@
 .methodologies__container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 2rem 0;
   background-color: var(--color-blue);
   color: var(--color-white);
+}
+
+.methodologies__content {
+  max-width: 1024px;
 }
 
 .methodologies__content > img {

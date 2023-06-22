@@ -1,11 +1,14 @@
 .navbar_container {
+  width: 100%;
   height: 80px;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-blue);
   color: var(--color-gray);
   padding: 0 20px;
+  z-index: 1;
 }
 
 .navbar_container > a:first-child,
@@ -110,6 +113,7 @@
   .navbar_container {
     justify-content: flex-start;
     gap: 3rem;
+    padding: 0 3rem;
   }
 
   .img_banner {

@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import coverageImg from '../../assets/images/coverage.png';
 import style from './About.module.css';
 
 export default function AboutPage ({ data }) {
@@ -61,7 +60,7 @@ export default function AboutPage ({ data }) {
         <span className='material-symbols-outlined'>expand_more</span>
       </div>
       <section id='coverage_description' className={style.coverage_description__container}>
-        <img src={coverageImg} alt='coverage' />
+        <img src={weAre.coverageImg} alt='coverage' />
         <div className={style.coverage_description}>
           <h3>{coverage.description}</h3>
           <h3>{coverage.distances.title}:</h3>

@@ -1,9 +1,10 @@
 .gallery_access__container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem 0;
 }
 
 .gallery_access__container > h2 {
@@ -63,7 +64,13 @@
     position: absolute;
   }
 
+  .tools__container {
+    display: flex;
+    max-width: 1024px;
+  }
+
   .content {
+    width: 33%;
     margin-top: 5rem;
   }
 
@@ -71,10 +78,7 @@
     max-height: 400px;
   }
 
-  #image2 {
-    background-position-x: 30%;
-  }
-
+  #image2,
   #image3 {
     background-position-x: 30%;
   }

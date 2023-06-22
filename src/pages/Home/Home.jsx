@@ -8,7 +8,7 @@ import Tools from '../../components/Tools/Tools.jsx'; //eslint-disable-line
 import style from './HomePage.module.css';
 
 export default function HomePage ({ data }) {
-  const { slider, brands, services, jobs } = data;
+  const { slider, brands, services, jobs, sliderLarge } = data;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -16,7 +16,7 @@ export default function HomePage ({ data }) {
 
   return (
     <div className={style.home_page__container}>
-      <Carrousel images={slider}/>
+      <Carrousel images={slider} imagesLarge={sliderLarge}/>
       <Banner services={services}/>
       <Methodologies />
       <Jobs jobs={jobs}/>
