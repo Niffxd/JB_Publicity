@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom'; //eslint-disable-line
 import style from './Job.module.css';
 
 export default function Job ({ data }) {
-  const { title, descriptions, images } = data;
+  const { path, title, descriptions, images } = data;
 
   return (
     <>
@@ -17,6 +18,7 @@ export default function Job ({ data }) {
                   );
                 })
               }
+              <Link to={`${path}`} state={data}><p id={path}>Más información</p></Link>
             </>
           : <div className={style.others__container}>
               <h2>{title}</h2>

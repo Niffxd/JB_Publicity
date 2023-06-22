@@ -3,7 +3,6 @@ import Navbar from './components/Navbar/Navbar.jsx'; //eslint-disable-line
 import Footer from './components/Footer/Footer.jsx'; //eslint-disable-line
 import NotFoundPage from './pages/NotFound/NotFound.jsx'; //eslint-disable-line
 import HomePage from './pages/Home/Home.jsx'; //eslint-disable-line
-import JobsPage from './pages/Jobs/Jobs.jsx'; //eslint-disable-line
 import JobPageDetail from './pages/JobDetail/JobDetail.jsx'; //eslint-disable-line
 import AboutPage from './pages/About/About.jsx'; //eslint-disable-line
 // import logo from './assets/images/logo/logo.png';
@@ -18,9 +17,9 @@ function App () {
       <Routes>
         <Route exac path='/' element={<HomePage logo={logo} data={db}/>}/>
         <Route exac path='/quienes-somos' element={<AboutPage data={db}/>}/>
-        <Route exac path='/trabajos' element={<JobsPage data={db}/>}/>
-        <Route exac path='/trabajos/:job' element={<JobPageDetail jobs={db.jobs}/>}/>
+        <Route exac path='/:job' element={<JobPageDetail jobs={db.jobs}/>}/>
         <Route path='*' element={<NotFoundPage logo={logo} categories={db.categories}/>}/>
+        <Route exac path='/no-encontrado' element={<NotFoundPage logo={logo} categories={db.categories}/>}/>
       </Routes>
       <Footer logo={logo} data={db}/>
     </BrowserRouter>

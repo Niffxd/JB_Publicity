@@ -4,15 +4,20 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import style from './Carrousel.module.css';
 
 export default function Carrousel ({ images, imagesLarge }) {
-  const [actualImages, setImages] = useState(null);
+  const [bgImage, setBgImage] = useState(images[0].src);
+  const [actualImages, setImages] = useState(images);
   const [windowSize, setWindowSize] = useState(window.innerWidth);
+
+  const handlerBgImage = event => {
+    setBgImage(images[event].src);
+  };
 
   const handleWindowResize = () => {
     setWindowSize(window.innerWidth);
   };
 
   useEffect(() => {
-    windowSize < 1024
+    windowSize < 768
       ? setImages(images)
       : setImages(imagesLarge);
     window.addEventListener('resize', handleWindowResize);
@@ -23,9 +28,10 @@ export default function Carrousel ({ images, imagesLarge }) {
   }, [window.innerWidth]);
 
   return (
-
     <div className={style.carrousel__container}>
-      <div className={style.background__container} />
+      <div
+        className={style.background__container}
+        style={windowSize < 768 ? { backgroundImage: `url(${bgImage})` } : {}} />
       <Carousel
         autoPlay={true}
         showThumbs={false}
@@ -33,9 +39,10 @@ export default function Carrousel ({ images, imagesLarge }) {
         showStatus={false}
         showIndicators={false}
         showArrows={false}
-        >
+        onChange={handlerBgImage}
+      >
         {
-          actualImages?.map(({ src, title }) => {
+          actualImages.map(({ src, title }) => {
             return (
               <img key={title} src={src} alt={title} />
             );
