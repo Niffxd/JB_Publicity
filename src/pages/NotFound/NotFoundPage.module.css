@@ -1,15 +1,24 @@
 .not_found__container {
   width: 100%;
-  min-height: calc(100vh - 446px);
+  min-height: calc(100vh - 246px);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  padding: 3rem 4rem;
+  padding: 150px 4rem 3rem;
+  background-color: var(--color-white);
 }
 
 .not_found__container > img {
   width: 100%;
+  max-width: 300px;
+}
+
+.category__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .category_list {
@@ -22,4 +31,21 @@
 
 .category_list > li {
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .not_found__container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+  }
+
+  .category__container {
+    gap: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .not_found__container > img {
+    width: 50%;
+  }
 }
