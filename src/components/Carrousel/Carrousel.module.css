@@ -3,6 +3,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 80px;
   }
   
   .background__container {
@@ -12,9 +13,5 @@
     position: absolute;
     background-size: cover;
     background-position: center;
-  }
-  
-  .carrousel__container > div:nth-child(2) {
-    max-width: 400px;
   }
 }

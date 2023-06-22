@@ -65,7 +65,8 @@
           "Contamos con el personal calificado y capacitado para la producción y montaje de cualquier tipo de obra de Ingeniería Corporativa."
         ]
       }
-    ]
+    ],
+    "coverageImg": "coverage.png"
   },
   "coverage": {
     "description": "Estamos ubicados físicamente en la Ciudad de San Miguel de Tucumán, la capital de la Provincia de Tucumán.",
@@ -132,6 +133,28 @@
       "title": "Trabajo Jumbo Cencosud Grúa"
     }
   ],
+  "sliderLarge": [
+    {
+      "src": "/slider/slider_1_large.jpg",
+      "path": "",
+      "title": "Trabajo Refinor"
+    },
+    {
+      "src": "/slider/slider_2_large.jpg",
+      "path": "",
+      "title": "Trabajo Shell"
+    },
+    {
+      "src": "/slider/slider_3_large.jpg",
+      "path": "",
+      "title": "Trabajo Mostaza"
+    },
+    {
+      "src": "/slider/slider_4_large.jpg",
+      "path": "",
+      "title": "Trabajo Jumbo"
+    }
+  ],
   "brands": [
     {
       "src": "/brands/aerolineas-argentinas.jpg",
@@ -144,11 +167,6 @@
       "title": "AFIP"
     },
     {
-      "src": "/brands/aguilares.jpg",
-      "path": "",
-      "title": "Municipaldiad de Aguilares"
-    },
-    {
       "src": "/brands/ampere.jpg",
       "path": "",
       "title": "AMPERE"
@@ -159,11 +177,6 @@
       "title": "Arcor"
     },
     {
-      "src": "/brands/bagley.jpg",
-      "path": "",
-      "title": "Bagley"
-    },
-    {
       "src": "/brands/bbva.jpg",
       "path": "",
       "title": "BBVA"
@@ -172,16 +185,6 @@
       "src": "/brands/benelli.jpg",
       "path": "",
       "title": "BENELLI"
-    },
-    {
-      "src": "/brands/budeguer.jpg",
-      "path": "",
-      "title": "Grupo Budeguer"
-    },
-    {
-      "src": "/brands/campagnola.jpg",
-      "path": "",
-      "title": "La Campagnola"
     },
     {
       "src": "/brands/casapan.jpg",
@@ -201,10 +204,6 @@
     {
       "src": "/brands/cencosud.jpg",
       "title": "Cencosud"
-    },
-    {
-      "src": "/brands/concepcion.jpg",
-      "title": "Municipaldiad de Concepción"
     },
     {
       "src": "/brands/del-pueblo.jpg",
@@ -235,16 +234,8 @@
       "title": "GMKT"
     },
     {
-      "src": "/brands/jorrat.jpg",
-      "title": "Jorrat Juguetería"
-    },
-    {
       "src": "/brands/jumbo.jpg",
       "title": "Jumbo Cencosud"
-    },
-    {
-      "src": "/brands/legislatura.jpg",
-      "title": "Honorable Legislatura de Tucumán"
     },
     {
       "src": "/brands/line-up.jpg",
@@ -267,14 +258,6 @@
       "title": "Pevisa Neumáticos"
     },
     {
-      "src": "/brands/portal-salta.jpg",
-      "title": "Portal Salta"
-    },
-    {
-      "src": "/brands/portal-santiago.jpg",
-      "title": "Portal Santiago"
-    },
-    {
       "src": "/brands/portal-tucuman.jpg",
       "title": "Portal Tucumán"
     },
@@ -293,18 +276,6 @@
     {
       "src": "/brands/sherwin-williams.jpg",
       "title": "Sherwin Williams"
-    },
-    {
-      "src": "/brands/sporting.jpg",
-      "title": "Sporting"
-    },
-    {
-      "src": "/brands/termas.jpg",
-      "title": "Municipaldiad de Las Termas"
-    },
-    {
-      "src": "/brands/turismo.jpg",
-      "title": "Tucumán Turismo"
     },
     {
       "src": "/brands/vea.jpg",
@@ -383,9 +354,9 @@
     },
     {
       "path": "shell",
-      "title": "Instalación completa de nueva imagen de nuestro cliente Shell.",
+      "title": "Instalación completa de nueva imagen Shell.",
       "descriptions": [
-        "Se colocaron desde las cenefas plásticas hasta los coronamiento y punteras. También realizamos las conexiones eléctricas.",
+        "Desmontaje y armado de nuevas estructuras. Instalación de cenefas plásticas, punteras, totem, y gráficas en general.",
         "Instalación de tótem gigante, fijación a base y porsterior conexión eléctrica.",
         "Las instalaciones se realizan a medida respetando los manuales de marca y las especificaciones de posicionamiento."
       ],
@@ -405,7 +376,7 @@
       "path": "bbva",
       "title": "Cambio de imágen de BBVA",
       "descriptions": [
-        "Con estructuras realizadas en caño estructural de aluminio, lonas panagraphics ploteadas con vinilo fundido 3M y colocación de Letras realizadas en PVC de 10 mm."
+        "Fabricación e instalación de estructuras de aluminio, lonas panagraphics 3M ploteadas con vinilo fundido 3M y colocación de letras corpóreas de PVC de 10 mm."
       ],
       "images": [
         "jobs/bbva/1.jpg",
@@ -423,7 +394,7 @@
       "path": "mostaza",
       "title": "Sucursal Mostaza",
       "descriptions": [
-        "Cartelería, construcción y aplicación de cenefas, pérgola, barandas, etc. Trabajos de presición en acero."
+        "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
       ],
       "images": [
         "jobs/mostaza/1.jpg",
