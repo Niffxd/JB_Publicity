@@ -30,12 +30,18 @@
 }
 
 .job__content > h2,
-.job__content > p {
+.job__content > p,
+.job__content > a {
   padding: 0 2rem;
+}
+
+.job__content > a {
+  text-decoration: underline;
 }
 
 .job__content:last-child {
   padding-bottom: 0;
+  border: none;
 }
 
 @media (min-width: 768px) {

@@ -1,6 +1,10 @@
 {
   "categories": [
     {
+      "category": "INICIO",
+      "path": "/"
+    },
+    {
       "category": "OBTENER PRESUPUESTO",
       "path": false
     },
@@ -206,6 +210,11 @@
       "title": "Cencosud"
     },
     {
+      "src": "/brands/citricola.jpg",
+      "path": "",
+      "title": "Citrícola San Miguel"
+    },
+    {
       "src": "/brands/del-pueblo.jpg",
       "title": "Del Pueblo Farmacias"
     },
@@ -234,8 +243,16 @@
       "title": "GMKT"
     },
     {
+      "src": "/brands/goodyear.jpg",
+      "title": "GOODYEAR"
+    },
+    {
       "src": "/brands/jumbo.jpg",
       "title": "Jumbo Cencosud"
+    },
+    {
+      "src": "/brands/libertad.jpg",
+      "title": "Hipermercado Libertad"
     },
     {
       "src": "/brands/line-up.jpg",
@@ -244,6 +261,11 @@
     {
       "src": "/brands/lucci.jpg",
       "title": "Grupo Lucci"
+    },
+    {
+      "src": "/brands/mostaza.jpg",
+      "path": "",
+      "title": "Mostaza"
     },
     {
       "src": "/brands/patagonia.jpg",
@@ -284,6 +306,10 @@
     {
       "src": "/brands/yuhmak.jpg",
       "title": "YUHMAK"
+    },
+    {
+      "src": "/brands/zeramiko.jpg",
+      "title": "Zeramiko"
     }
   ],
   "schedule": {
@@ -401,8 +427,7 @@
         "jobs/mostaza/2.jpg",
         "jobs/mostaza/3.jpg",
         "jobs/mostaza/4.jpg",
-        "jobs/mostaza/5.jpg",
-        "jobs/mostaza/6.jpg"
+        "jobs/mostaza/5.jpg"
       ]
     },
     {

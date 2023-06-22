@@ -1,24 +1,43 @@
-// import { useParams } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom'; //eslint-disable-line
 import style from './JobDetail.module.css';
 
-export default function JobPageDetail ({ jobs }) {
-  // const params = useParams();
-
+export default function JobPageDetail () {
   const { state } = useLocation();
-  const { title, descriptions, images } = state;
+  const navigate = useNavigate();
+
+  const [job, setJob] = useState(null);
+
+  useEffect(() => {
+    if (!state) navigate('/no-encontrado');
+    else {
+      setJob(state);
+    }
+  }, [job]);
 
   return (
     <div className={style.job_detail__container}>
-      <img src={`/${images[0]}`} alt={images[0]} />
-      <h2>{title}</h2>
+      <div className={style.detail_title}>
+        <h1>{job?.title}</h1>
+        <button className={style.button_back} onClick={() => navigate(-1)}>◀ Atrás</button>
+      </div>
       {
-        descriptions.slice(0, 1).map(desc => {
+        job?.descriptions.slice(0, 1).map(desc => {
           return (
-            <p key={descriptions.indexOf(desc)}>{desc}</p>
+            <p key={job?.descriptions.indexOf(desc)}>{desc}</p>
           );
         })
       }
+      <div className={style.images__container}>
+        {
+          job?.images.map(image => {
+            return (
+              <img key={image} src={image} alt={image} />
+            );
+          })
+        }
+      </div>
+      <button className={style.button_back} onClick={() => navigate(-1)}>◀ Atrás</button>
     </div>
   );
 }

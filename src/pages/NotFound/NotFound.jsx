@@ -5,20 +5,22 @@ export default function NotFoundPage ({ logo, categories }) {
   return (
     <div className={style.not_found__container}>
       <img src={logo} alt='logo' />
-      <h2>¿Te perdiste?</h2>
-      <ul className={style.category_list}>
-        {
-          categories.map(cat => {
-            return (
-              cat.path
-                ? <li key={categories.indexOf(cat)}>
-                    <Link to={cat.path}>{cat.category}</Link>
-                  </li>
-                : ''
-            );
-          })
-        }
-      </ul>
+      <div className={style.category__container}>
+        <h2>¿Te perdiste?</h2>
+        <ul className={style.category_list}>
+          {
+            categories.map(category => {
+              return (
+                category.path
+                  ? <li key={categories.indexOf(category)}>
+                      <Link to={category.path}>{category.category}</Link>
+                    </li>
+                  : ''
+              );
+            })
+          }
+        </ul>
+      </div>
     </div>
   );
 }

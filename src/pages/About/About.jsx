@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import style from './About.module.css';
 
 export default function AboutPage ({ data }) {
   const { weAre, coverage, company } = data;
+  const [windowSize, setWindowSize] = useState(window.innerWidth);
 
   const handlerShowUp = () => {
     document.getElementById('we_are_title').classList.toggle(`${style.rotate}`);
@@ -19,13 +20,25 @@ export default function AboutPage ({ data }) {
     document.getElementById('contact_description').classList.toggle(`${style.show_container}`);
   };
 
+  const handleWindowResize = () => {
+    setWindowSize(window.innerWidth);
+  };
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, [window.innerWidth]);
+
   return (
     <div className={style.about_page__container}>
-      <div id='we_are_title' className={style.title_container} onClick={() => handlerShowUp()}>
+      <div id='we_are_title' className={style.title_container} onClick={windowSize < 768 ? () => handlerShowUp() : ''}>
         <h1>QUIENES SOMOS</h1>
         <span className='material-symbols-outlined'>expand_more</span>
       </div>
@@ -55,7 +68,7 @@ export default function AboutPage ({ data }) {
         </div>
       </section>
       <hr />
-      <div id='coverage' className={style.coverage__container} onClick={() => handlerShowCoverage()}>
+      <div id='coverage' className={style.coverage__container} onClick={windowSize < 768 ? () => handlerShowCoverage() : ''}>
         <h1>CAPACIDAD DE COBERTURA GEOGRÁFICA</h1>
         <span className='material-symbols-outlined'>expand_more</span>
       </div>
@@ -80,7 +93,7 @@ export default function AboutPage ({ data }) {
         </div>
       </section>
       <hr />
-      <div id='contact' className={style.contact__container} onClick={() => handlerShowContact()}>
+      <div id='contact' className={style.contact__container} onClick={windowSize < 768 ? () => handlerShowContact() : ''}>
         <h1>CONTACTO</h1>
         <span className='material-symbols-outlined'>expand_more</span>
       </div>
