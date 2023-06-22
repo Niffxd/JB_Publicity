@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a lo
 import style from './Carrousel.module.css';
 
 export default function Carrousel ({ images, imagesLarge }) {
-  const [bgImage, setBgImage] = useState(images[0].src);
+  const [bgImage, setBgImage] = useState(null);
   const [actualImages, setImages] = useState(images);
   const [windowSize, setWindowSize] = useState(window.innerWidth);
 
