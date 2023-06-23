@@ -9,6 +9,10 @@ export default function JobPageDetail () {
   const [job, setJob] = useState(null);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     if (!state) navigate('/no-encontrado');
     else {
       setJob(state);
