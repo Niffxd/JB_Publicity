@@ -27,7 +27,7 @@
     }
   }
 
-  @media (min-width: 1600px) {
+  @media (min-width: 1300px) {
     .carrousel__container {
       background-color: black;
     }
@@ -35,7 +35,7 @@
     .carrousel__container div,
     .carrousel__container ul,
     .carrousel__container > div:nth-child(2) {
-      max-width: 1600px;
+      max-width: 1300px;
       max-height: 700px;
     }
   }
