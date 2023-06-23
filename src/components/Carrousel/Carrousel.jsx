@@ -39,7 +39,7 @@ export default function Carrousel ({ images, imagesLarge }) {
         showStatus={false}
         showIndicators={false}
         showArrows={false}
-        onChange={handlerBgImage}
+        onChange={windowSize < 768 ? handlerBgImage : () => {}}
       >
         {
           actualImages.map(({ src, title }) => {
