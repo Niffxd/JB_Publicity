@@ -58,6 +58,10 @@
     gap: 3rem;
   }
 
+  .job_detail__container > p {
+    max-width: 746px;
+  }
+
   .images__container {
     padding: 2rem 1rem;
     border: .2rem solid var(--color-orange);
@@ -66,11 +70,13 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .images__container > img {
-    max-width: 250px;
+    width: auto;
+    max-height: 350px;
     object-fit: cover;
+    cursor: pointer;
   }
 }
