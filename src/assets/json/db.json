@@ -440,6 +440,46 @@
       ]
     },
     {
+      "path": "vea",
+      "title": "Vea Cencosud",
+      "descriptions": [
+        "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
+      ],
+      "images": [
+        "jobs/vea/3.jpg",
+        "jobs/vea/1.jpg",
+        "jobs/vea/2.jpg",
+        "jobs/vea/4.jpg",
+        "jobs/vea/5.jpg"
+      ]
+    },
+    {
+      "path": "jumbo",
+      "title": "Jumbo Cencosud",
+      "descriptions": [
+        "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
+      ],
+      "images": [
+        "jobs/jumbo/3.jpg",
+        "jobs/jumbo/1.jpg",
+        "jobs/jumbo/2.jpg",
+        "jobs/jumbo/4.jpg",
+        "jobs/jumbo/5.jpg",
+        "jobs/jumbo/6.jpg",
+        "jobs/jumbo/7.jpg",
+        "jobs/jumbo/8.jpg",
+        "jobs/jumbo/9.jpg",
+        "jobs/jumbo/10.jpg",
+        "jobs/jumbo/11.jpg",
+        "jobs/jumbo/12.jpg",
+        "jobs/jumbo/13.jpg",
+        "jobs/jumbo/14.jpg",
+        "jobs/jumbo/15.jpg",
+        "jobs/jumbo/16.jpg",
+        "jobs/jumbo/17.jpg"
+      ]
+    },
+    {
       "path": "others",
       "title": "¡Muchos más!",
       "images": [

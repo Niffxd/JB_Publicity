@@ -26,6 +26,8 @@
   gap: 1rem;
   text-align: center;
   padding: 0rem 3rem 1rem 3rem;
+  background-color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .others__container > h2 {
