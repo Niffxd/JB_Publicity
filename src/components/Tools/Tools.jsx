@@ -6,13 +6,13 @@ export default function Tools () {
       <h2>¿QUÉ HACEMOS?</h2>
       <div className={style.tools__container}>
         <div className={style.content}>
-          <div id={style['image1']} className={style.img} style={{ backgroundImage: 'url("jobs/jb/2.jpg")' }}/> {/* eslint-disable-line */}
+          <div id={style['image1']} className={style.img} style={{ backgroundImage: 'url("jobs/jb/6.jpg")' }}/> {/* eslint-disable-line */}
           <div className={style.description}>
             <p>Todas las estructuras y carteles son diseñadas y fabricadas en nuestra planta por personal altamente calificado para cada requerimiento.</p>
           </div>
         </div>
         <div className={style.content}>
-          <div id={style['image2']} className={style.img} style={{ backgroundImage: 'url("jobs/jb/4.jpg")' }}/> {/* eslint-disable-line */}
+          <div id={style['image2']} className={style.img} style={{ backgroundImage: 'url("jobs/jb/2.jpg")' }}/> {/* eslint-disable-line */}
           <div className={style.description}>
             <p>Contamos con todas las herramientas y maquinarias específicas para cada tipo de trabajo solicitado.</p>
           </div>
