@@ -35,7 +35,7 @@
     .carrousel__container div,
     .carrousel__container ul,
     .carrousel__container > div:nth-child(2) {
-      max-width: 1300px;
+      max-width: 1200px;
       max-height: 700px;
     }
   }

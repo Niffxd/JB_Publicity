@@ -13,7 +13,6 @@
   color: var(--color-gray);
 }
 
-
 .footer_logo {
   display: flex;
   flex-direction: column;
@@ -34,12 +33,19 @@
   margin-bottom: 1rem;
 }
 
+.info_container > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tel {
   text-decoration: underline;
 }
 
 .material-symbols-outlined {
   font-size: 1rem;
+  padding: 0;
   margin-right: .5rem;
   color: var(--color-white);
 }
