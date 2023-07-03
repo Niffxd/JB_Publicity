@@ -103,6 +103,10 @@
 }
 
 @media (min-width: 768px) {
+  .about_page__container {
+    padding: 120px 8rem 2rem;
+  }
+
   .title_container > span,
   .coverage__container > span,
   .contact__container > span {
@@ -142,7 +146,7 @@
 
 @media (min-width: 1280px) {
   .about_page__container {
-    padding: 8rem 4rem 2rem;
+    padding: 8rem 8rem 2rem;
     font-size: 1.2rem;
   }
 

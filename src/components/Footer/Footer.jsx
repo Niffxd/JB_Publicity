@@ -13,7 +13,7 @@ export default function Footer ({ logo, data }) {
       </Link>
       <div className={style.contact_container}>
         <div className={style.info_container}>
-        <h3>DIRECCIÓN</h3>
+          <h3>DIRECCIÓN</h3>
           {
             Object.entries(contact).map(item => {
               return (

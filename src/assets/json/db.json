@@ -43,8 +43,8 @@
   "weAre": {
     "description": [
       "Desde hace 35 años en Tucumán, JB se inicia en el universo gráfico incursionando con publicidad en vía pública, desarrollando distintos circuitos en la capital y alrededores. Con el pasar del tiempo, decide ampliar sus horizontes, para ir más allá de la venta de espacios.",
-      "Desde 2011 comienza una nueva etapa con la incorporación de la tecnología digital, sumando su primera impresora de gran formato para vinilos y lonas.",
-      "Hoy, 11 años después, JB COMPAÑÍA PUBLICITARIA es sinónimo de calidad certificada en el Norte del País. Contando con una planta de 1.000 m2 en donde fabrica e imprime todo tipo de carteles y sustratos.",
+      "Desde 2012 comienza una nueva etapa con la incorporación de la tecnología digital, sumando su primera impresora de gran formato para vinilos y lonas.",
+      "Hoy, 12 años después, JB COMPAÑÍA PUBLICITARIA es sinónimo de calidad certificada en el Norte del País. Contando con una planta de 1.000 m2 en donde fabrica e imprime todo tipo de carteles y sustratos.",
       "Con un convenio estratégico con 3M ARGENTINA se posiciona como el único proveedor certificado en el NOA para fabricar, imprimir e instalar carteles Premium."
     ],
     "departments": [
@@ -451,12 +451,8 @@
         "jobs/jumbo/9.jpg",
         "jobs/jumbo/10.jpg",
         "jobs/jumbo/11.jpg",
-        "jobs/jumbo/12.jpg",
         "jobs/jumbo/13.jpg",
-        "jobs/jumbo/14.jpg",
-        "jobs/jumbo/15.jpg",
-        "jobs/jumbo/16.jpg",
-        "jobs/jumbo/17.jpg"
+        "jobs/jumbo/15.jpg"
       ]
     },
     {
@@ -479,10 +475,20 @@
         "jobs/others/2.jpg",
         "jobs/others/3.jpg",
         "jobs/others/5.jpg",
-        "jobs/others/20.jpg",
+        "jobs/others/32.jpg",
+        "jobs/others/33.jpg",
+        "jobs/others/34.jpg",
+        "jobs/others/35.jpg",
+        "jobs/others/36.jpg",
+        "jobs/others/37.jpg",
+        "jobs/others/38.jpg",
+        "jobs/others/39.jpg",
+        "jobs/others/40.jpg",
+        "jobs/others/33.jpg",
+        "jobs/others/21.jpg",
         "jobs/others/25.jpg",
-        "jobs/others/24.jpg",
-        "jobs/cat/2.jpg"
+        "jobs/cat/2.jpg",
+        "jobs/others/24.jpg"
       ]
     }
   ]
