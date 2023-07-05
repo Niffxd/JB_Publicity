@@ -9,18 +9,39 @@ export default function JobPageDetail () {
 
   const [actualImg, setImg] = useState(null);
   const [job, setJob] = useState(null);
+  const [active, setActive] = useState(false);
 
   const handlerPreview = (image) => {
     setImg(null);
     setImg(image);
+    if (!active) setActive(true);
     document.getElementById('preview_image')?.showModal();
     document.getElementById('preview_image')?.classList.add(style.show_modal);
   };
 
-  const handleCloseModal = () => {
-    document.getElementById('preview_image').close();
-    document.getElementById('preview_image').classList.remove(style.show_modal);
+  const handlerPrevImage = () => {
+    if (!job?.images?.indexOf(actualImg)) setImg(job.images[(job?.images?.length) - 1]);
+    else setImg(job.images[(job?.images?.indexOf(actualImg)) - 1]);
   };
+
+  const handlerNextImage = () => {
+    if (job?.images?.indexOf(actualImg) < job?.images?.length - 1) setImg(job.images[(job?.images?.indexOf(actualImg)) + 1]);
+    else setImg(job.images[0]);
+  };
+
+  const handleCloseModal = () => {
+    if (active) setActive(false);
+    document.getElementById('preview_image').close();
+    document.getElementById('preview_image').classList?.remove(style.show_modal);
+  };
+
+  const handlePressKey = (event) => {
+    if (event.key === 'Escape') handleCloseModal();
+    if (event.key === 'ArrowRight' && active) handlerPrevImage();
+    if (event.key === 'ArrowLeft' && active) handlerNextImage();
+  };
+
+  document.addEventListener('keydown', handlePressKey);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -63,32 +84,16 @@ export default function JobPageDetail () {
                 <div className={style.preview_image}>
                   <img src={actualImg} alt={actualImg} />
                   <div className={style.controls}>
-                    {
-                      job?.images?.indexOf(actualImg) > 0
-                        ? <button onClick={() => setImg(job.images[(job?.images?.indexOf(actualImg)) - 1])}>
-                            <span className='material-symbols-outlined'>
-                              chevron_left
-                            </span>
-                          </button>
-                        : <button onClick={() => setImg(job.images[(job?.images?.length) - 1])}>
-                            <span className='material-symbols-outlined'>
-                              chevron_left
-                            </span>
-                          </button>
-                    }
-                    {
-                      job?.images?.indexOf(actualImg) < job?.images?.length - 1
-                        ? <button onClick={() => setImg(job.images[(job?.images?.indexOf(actualImg)) + 1])}>
-                            <span className='material-symbols-outlined'>
-                              chevron_right
-                            </span>
-                          </button>
-                        : <button onClick={() => setImg(job.images[0])}>
-                            <span className='material-symbols-outlined'>
-                              chevron_right
-                            </span>
-                          </button>
-                      }
+                    <button onClick={handlerPrevImage}>
+                      <span className='material-symbols-outlined'>
+                        chevron_left
+                      </span>
+                    </button>
+                    <button onClick={handlerNextImage}>
+                      <span className='material-symbols-outlined'>
+                        chevron_right
+                      </span>
+                    </button>
                   </div>
                 </div>
                 <button onClick={handleCloseModal} id='cancel'>Volver</button>
