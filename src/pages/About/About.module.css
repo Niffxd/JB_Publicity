@@ -150,9 +150,14 @@
     font-size: 1.2rem;
   }
 
+  .about_description {
+    display: flex;
+    flex-direction: column;
+  }
+
   .about_description__container {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     gap: 4rem;
   }
 

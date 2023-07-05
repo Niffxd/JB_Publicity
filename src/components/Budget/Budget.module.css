@@ -39,6 +39,7 @@
 
 .title > span {
   cursor: pointer;
+  color: var(--color-dark);
 }
 
 .form__content {

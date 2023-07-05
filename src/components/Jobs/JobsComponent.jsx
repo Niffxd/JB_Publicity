@@ -33,10 +33,10 @@ export default function JobsComponent ({ jobs }) {
               style={!bgColor
                 ? jobs.indexOf(job) % 2
                   ? { backgroundColor: 'var(--color-blue)', color: 'var(--color-white)', textAlign: 'right' }
-                  : {}
+                  : { color: 'var(--color-blue)' }
                 : jobs.indexOf(job) !== 0 && jobs.indexOf(job) !== 3 && jobs.indexOf(job) !== 4
                   ? { backgroundColor: 'var(--color-blue)', color: 'var(--color-white)', textAlign: 'right' }
-                  : {}
+                  : { color: 'var(--color-blue)' }
                 }>
               <Job data={job} />
             </div>

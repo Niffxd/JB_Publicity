@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'; //eslint-disable-line
 import style from './Job.module.css';
 
 export default function Job ({ data }) {
-  const { path, title, descriptions, images } = data;
+  const { path, reference, title, descriptions, images } = data;
 
   return (
     <>
@@ -10,6 +10,7 @@ export default function Job ({ data }) {
         descriptions
           ? <>
               <div className={style.image} style={{ backgroundImage: `url(${images[0]})` }}/>
+              <span>{reference}</span>
               <h2>{title}</h2>
               {
                 descriptions.slice(0, 1).map(desc => {
@@ -18,7 +19,7 @@ export default function Job ({ data }) {
                   );
                 })
               }
-              <Link to={`${path}`} state={data}><p id={path}>Más información</p></Link>
+              <Link to={`${path}`} state={data} id={style[path]}><p>Más información</p></Link>
             </>
           : <div className={style.others__container}>
               <h2>{title}</h2>

@@ -57,7 +57,7 @@ export default function Budget () {
       document.getElementById('send_message').classList.add(style.show_warning);
     } else {
       setSending(true);
-      fetch('https://formsubmit.co/ajax/nicosanchez673@gmail.com', {
+      fetch('https://formsubmit.co/ajax/jb@jbciapublicitaria.com.ar', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

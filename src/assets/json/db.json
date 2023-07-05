@@ -45,13 +45,14 @@
       "Desde hace 35 años en Tucumán, JB se inicia en el universo gráfico incursionando con publicidad en vía pública, desarrollando distintos circuitos en la capital y alrededores. Con el pasar del tiempo, decide ampliar sus horizontes, para ir más allá de la venta de espacios.",
       "Desde 2012 comienza una nueva etapa con la incorporación de la tecnología digital, sumando su primera impresora de gran formato para vinilos y lonas.",
       "Hoy, 12 años después, JB COMPAÑÍA PUBLICITARIA es sinónimo de calidad certificada en el Norte del País. Contando con una planta de 1.000 m2 en donde fabrica e imprime todo tipo de carteles y sustratos.",
-      "Con un convenio estratégico con 3M ARGENTINA se posiciona como el único proveedor certificado en el NOA para fabricar, imprimir e instalar carteles Premium."
+      "Con un convenio estratégico con 3M ARGENTINA se posiciona como el único proveedor certificado en el NOA para fabricar, imprimir e instalar carteles Premium.",
+      "Estamos ubicados en calle Av. Mate de Luna 3.669 en la  ciudad de San Miguel de Tucumán, y allí funcionan sus 3 departamentos:"
     ],
     "departments": [
       {
         "path": "",
         "title": "DISEÑO GRÁFICO",
-        "description": ["Estamos ubicados en calle Av. Mate de Luna 3.669 en la  ciudad de San Miguel de Tucumán, y allí funcionan sus 3 departamentos"]
+        "description": ["Contamos con un equipo de profesionales capacitados para brindar el mejor asesoramiento. Su misión consiste en crear y adaptar diseños corporativos que puedan ser llevados a la realidad."]
       },
       {
         "path": "",
@@ -65,7 +66,7 @@
         "path": "",
         "title": "TALLER",
         "description": [
-          "Contamos con el personal calificado y capacitado para la producción y montaje de cualquier tipo de obra de Ingeniería Corporativa."
+          "Contamos con el personal calificado y capacitado para la producción y montaje de los distintos tipos de carteles y mobiliarios publicitarios."
         ]
       }
     ],
@@ -316,6 +317,7 @@
   "jobs": [
     {
       "path": "refinor",
+      "reference": "REFINOR",
       "title": "Cambio de imagen para estaciones de servicio Refinor",
       "descriptions": [
         "Desmontaje y armado de nuevas estructuras. Recubrimiento de Aluminio Compuesto, Iluminación y gráfica en general.",
@@ -369,6 +371,7 @@
     },
     {
       "path": "shell",
+      "reference": "SHELL - Tucumán",
       "title": "Instalación completa de nueva imagen Shell.",
       "descriptions": [
         "Desmontaje y armado de nuevas estructuras. Instalación de cenefas plásticas, punteras, totem, y gráficas en general.",
@@ -393,6 +396,7 @@
     },
     {
       "path": "bbva",
+      "reference": "BBVA",
       "title": "Cambio de imágen de BBVA",
       "descriptions": [
         "Fabricación e instalación de estructuras de aluminio, lonas panagraphics 3M ploteadas con vinilo fundido 3M y colocación de letras corpóreas de PVC de 10 mm."
@@ -432,6 +436,7 @@
     },
     {
       "path": "mostaza",
+      "reference": "MOSTAZA - Tucumán",
       "title": "Sucursal Mostaza",
       "descriptions": [
         "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
@@ -453,6 +458,7 @@
     },
     {
       "path": "vea",
+      "reference": "VEA",
       "title": "Vea Cencosud",
       "descriptions": [
         "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
@@ -480,6 +486,7 @@
     },
     {
       "path": "jumbo",
+      "reference": "JUMBO",
       "title": "Jumbo Cencosud",
       "descriptions": [
         "Fabricación e instalación completa de la nueva imagen Mostaza: corpóreos de acrílico, pérgolas, barandas de acero, gráficas, estructuras de aluminio compuesto, etc."
