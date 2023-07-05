@@ -26,6 +26,8 @@
 
 .images__container > img {
   width: 100%;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .button_back {
@@ -136,7 +138,7 @@
   }
 
   .images__container > img {
-    width: auto;
+    max-width: 300px;
     max-height: 350px;
     object-fit: cover;
     cursor: pointer;
