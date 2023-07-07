@@ -34,6 +34,9 @@ export default function Carrousel ({ images, imagesLarge }) {
         style={windowSize < 768 ? { backgroundImage: `url(${bgImage})` } : {}} />
       <Carousel
         autoPlay={true}
+        emulateTouch={false}
+        stopOnHover={false}
+        swipeable={false}
         showThumbs={false}
         infiniteLoop={true}
         showStatus={false}
