@@ -42,7 +42,7 @@ export default function Carrousel ({ images, imagesLarge }) {
         showStatus={false}
         showIndicators={false}
         showArrows={false}
-        interval={1300}
+        interval={1600}
         onChange={windowSize < 768 ? handlerBgImage : () => {}}
       >
         {
