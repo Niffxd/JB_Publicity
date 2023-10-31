@@ -17,14 +17,18 @@ export default function Footer ({ logo, data }) {
           {
             Object.entries(contact).map(item => {
               return (
-                <li className={style.contact__item} key={item[0]}>
+                <li key={item[0]}>
                   {
-                    item[0] === 'call' || item[0] === 'map' || item[0] === 'pin_drop'
+                    item[0] === 'call' || item[0] === 'map' || item[0].includes('location')
                       ? <span className={`material-symbols-outlined ${style['material-symbols-outlined']}`}>
-                          {item[0]}
+                          {
+                            item[0].includes('location')
+                              ? 'pin_drop'
+                              : item[0]
+                          }
                         </span>
                       : <span className={style.no_icon}></span>
-                  }
+                    }
                   {
                     item[0] === 'call'
                       ? <a className={style.tel} href='tel:+543814351401'>{item[1]}</a>

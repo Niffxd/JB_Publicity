@@ -80,11 +80,6 @@
   .info_container > li {
     font-size: .9rem;
   }
-
-  .info_container > li:nth-child(5),
-  .info_container > li:nth-child(6) {
-    margin-left: 2rem;
-  }
 }
 
 @media (min-width: 1024px) {
