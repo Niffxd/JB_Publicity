@@ -18,8 +18,8 @@ function App () {
         <Route exac path='/' element={<HomePage logo={logo} data={db}/>}/>
         <Route exac path='/quienes-somos' element={<AboutPage data={db}/>}/>
         <Route exac path='/:job' element={<JobPageDetail jobs={db.jobs}/>}/>
-        <Route path='*' element={<NotFoundPage logo={logo} categories={db.categories}/>}/>
-        <Route exac path='/no-encontrado' element={<NotFoundPage logo={logo} categories={db.categories}/>}/>
+        <Route path='*' element={<NotFoundPage categories={db.categories}/>}/>
+        <Route exac path='/no-encontrado' element={<NotFoundPage categories={db.categories}/>}/>
       </Routes>
       <Footer logo={logo} data={db}/>
     </BrowserRouter>
