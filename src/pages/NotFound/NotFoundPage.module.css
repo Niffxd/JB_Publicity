@@ -1,6 +1,6 @@
 .not_found__container {
   width: 100%;
-  min-height: calc(100vh - 246px);
+  min-height: calc(100vh - 221px);
   display: flex;
   flex-direction: column;
   align-items: center;
