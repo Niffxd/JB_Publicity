@@ -14,7 +14,7 @@
     } 
   ],
   "contact": {
-    "call": "+54 381 435-1401",
+    "call": "+54 381-2481995",
     "location_1": "Av. Mate de Luna 3669 - San Miguel de Tucuman",
     "location_2": "Parque Industrial Kanamico Ruta Prov. 301 KM 17.5 - Lules",
     "map": "Tucumán, Argentina"
@@ -22,21 +22,21 @@
   "company": [
     {
       "name": "JB COMPAÑÍA PUBLICITARIA",
-      "tel": "+54 9 381-4351401",
-      "textNumber": "+5493814351401",
+      "tel": "+54 381-2481995",
+      "textNumber": "+543812481995",
       "mail": "jb@jbciapublicitaria.com.ar"
     },
     {
       "name": "Elfio Avignone",
       "position": "Socio Gerente",
-      "tel": "+54 9 381-6229622",
-      "textNumber": "+5493816229622"
+      "tel": "+54 381-6229622",
+      "textNumber": "+543816229622"
     },
     {
       "name": "Rodrigo Bringas",
       "position": "Socio Gerente",
-      "tel": "+54 9 381-5909001",
-      "textNumber": "+5493815909001"
+      "tel": "+54 381-5909001",
+      "textNumber": "+543815909001"
     }
   ],
   "weAre": {
